@@ -1,6 +1,6 @@
 import express from 'express';
 
-import '../infra/typeorm'
+import '@shared/infra/typeorm';
 
 const app = express();
 
